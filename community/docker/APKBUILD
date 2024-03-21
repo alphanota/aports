@@ -2,9 +2,9 @@
 # Contributor: Jake Buchholz Göktürk <tomalok@gmail.com>
 # Maintainer: Jake Buchholz Göktürk <tomalok@gmail.com>
 pkgname=docker
-pkgver=25.0.4
-_cli_commit=1a576c50a9a33dd7ab2bcd78db1982cb965812b0    # https://github.com/docker/cli/commits/v$pkgver
-_moby_commit=061aa95809be396a6b5542618d8a34b02a21ff77   # https://github.com/moby/moby/commits/v$pkgver
+pkgver=25.0.5
+_cli_commit=5dc9bcc5b78ed23f12cdd68e4285ea1c216ce2a1    # https://github.com/docker/cli/commits/v$pkgver
+_moby_commit=e63daec8672d77ac0b2b5c262ef525c7cf17fd20   # https://github.com/moby/moby/commits/v$pkgver
 pkgrel=1
 pkgdesc="Pack, ship and run any application as a lightweight container"
 url="https://www.docker.io/"
@@ -184,8 +184,8 @@ cli_doc() {
 }
 
 sha512sums="
-214984791ab67ca3da4bd5308d73a16218a0210da367d380bbe2a3f56eae131e252080aa2ebc3343df642007c9d91de6c0e0200122be9833866e58c87549db0d  cli-25.0.4.tar.gz
-07e724de305def32a1e32a724a8041be193745c4f0d549708723cf5d14b840f74648e83e790fd526e00a6c6fdb7e487ee4e5ed0752fbe172d673ab86fe8819d2  moby-25.0.4.tar.gz
+39f49514605a3c78661f105094f9c28beb01927a2d7dc474048c2a27135ca8c3f075a6f05157a176c032d5e7c105f00c9100c15713298b33bd34a6f399bac84d  cli-25.0.5.tar.gz
+42ac2cf271b0a8fe67816844b26216896e4f5ccb0e4b85516b1bcc5a76e5dd5e1dc560b50a6e1d1df4eed2f8b57585e189048edf0a3266e93098004c09dca8cc  moby-25.0.5.tar.gz
 dd499b92058fc4d7d19e0c9030b1f390f58ac40be423442732cb7d02067ed2e43c464511772a21d4f347ec34f037ddd00cc1243dc41c8ce85151ac6142611d61  docker.initd
 43432a05e5776910d45364aee9070932aa89f70eb9e69d3b7ed8e17d9a70eaed4c8c29b3524888214c7ddba592399e781a72255f7eb8fafd80c9f532a9481fac  docker.confd
 "
